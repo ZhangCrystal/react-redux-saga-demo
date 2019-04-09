@@ -5,7 +5,8 @@ import {getWeather} from '../actions/lanes';
 
 class App extends React.Component {
     render() {
-        const {getWeather,weather} = this.props;
+        const {lanes,getWeather,weather} = this.props;
+        console.log(lanes);
         return (
             <div>
                 <button onClick={()=>{getWeather('../../data.json')}}>天气</button>
