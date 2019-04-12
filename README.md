@@ -1,2 +1,2 @@
-# react-redux-demo
+# react-redux-saga-demo
 
